@@ -6,10 +6,10 @@ To install this, run setup.bat. This will download the python installer. Please 
 When python is installed press any key on the setup.bat file. DO NOT DO THIS BEFORE PYTHON HAS INSTALLED. This will
 install all the libraries.
 
-## COLLECTING NAMES ##
-To collect names double click on the file called run.bat. This will start the relevant script. If you get an erro saying
-"No module called PRAW", run setup.bat again but do not re-install python. Then try again. If that doesn't work PM me on
-skype (vogon101).
+## COLLECTING NAMES
+To collect names double click on the file called run.bat. This will start the relevant script. If you get an error saying
+"No module called PRAW", run setup.bat again but do not re-install python. Then try again. If that doesn't work please
+add an issue on GitHub
 
 Once the script is working you need to enter the unique id for the thread you want to collect the names off. To get this
 you simply need to find the 6 chars in the url (marked with Xs below:)
