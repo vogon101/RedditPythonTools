@@ -34,3 +34,5 @@ should be final.csv. This will then send a message to all of the names on the li
 all the names before running the names (using concat.bat) so that there are no dupes. This script will check for dupes 
 when it is run (it will only message each user once) but if it is run twice it cannot check so might thus send the same thing
 to two people.
+
+To have a line break in your message remeber to include two newlines in the source file.
