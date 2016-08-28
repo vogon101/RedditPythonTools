@@ -35,8 +35,8 @@ with open(filename, "rb") as csvfile:
 for user in names:
     print user
     try:
-        r.send_message(user, subject, message)
-        time.sleep(random.randint(1,7))
+        r.send_message(user, subject, message, raise_captcha_exception=False)
+        time.sleep(random.randint(0,0))
     except praw.errors.InvalidUser:
         print "User " + user + " does not exist"
 print("Sent")
